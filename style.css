@@ -1,0 +1,61 @@
+*{
+    overflow: hidden;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0c0c0c;
+    color: limegreen;
+    font-family: "Courier New", monospace;
+    text-align: center;
+}
+
+.socials{
+    width: 90%;
+    height: 50px;
+    margin-top: 0;
+    display: flex;
+    padding: 0 50px;
+    justify-content: flex-end;
+}
+
+.socials>p{
+    margin-right:20px;
+}
+
+.fight-img{
+    border-radius: 20px;
+    filter: grayscale(1);
+    width: 300px;
+    cursor: pointer;
+    transition: scale 0.5s ease-in-out, filter 0.5s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.fight-img:hover{
+    filter: none;
+    scale: 1.1;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+strong{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+strong:hover{
+    color: rgb(136, 255, 136);
+}
+
+a:hover {
+    color: red;
+}

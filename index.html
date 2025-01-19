@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFICIAL COMMUNITY COIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="socials">
+        <p><a href="">Telegram</a></p>
+        <p><a href="">Twitter</a></p>
+    </div>
+    <img class="fight-img" src="img/QmXAboYmJQHbj6zGmFvFwxc9uRYLayxesrqdhZe9ybJaiX.jpg" alt="">
+    <img width="400" src="img/official.png" alt="">
+    <h1>Welcome to COMMUNITY COIN</h1>
+    <p>The first Community coin launched on chain.</p>
+    <p>CA: <strong id="text-to-copy" onclick="copyText()"></strong></p>
+    <p><a href="">Pump it on Pump.fun</a></p>
+    <p><a href="">Trade on Dexscreener</a></p>
+</body>
+</html>
+
+<script>
+    function copyText() {
+      const text = document.getElementById("text-to-copy").innerText;
+      navigator.clipboard.writeText(text)
+        .then(() => alert("Text copied: " + text))
+        .catch(err => console.error("Copy text failed", err));
+    }
+  </script>
